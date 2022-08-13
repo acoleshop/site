@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Begin Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--End Bootstrap -->
+    <link href="assets/css/mystyles.css" rel="stylesheet">
+    <link href="assets/css/nosotros.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Poppins:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <header style="height: 62px;">
+        <nav id="navbarPrincipal" class="navbar navbar-light bg-light navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a id="logo-container" class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarpages" aria-controls="navbarpages" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarpages" class="collapse navbar-collapse justify-content-center">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html">
+                            <svg>
+                                <text>
+                                    Home
+                                </text>
+                            </svg>
+                        </a>
+
+                        <a class="nav-link active" href="#">
+                            <svg>
+                                <text>
+                                    Nosotros
+                                </text>
+                            </svg>
+                        </a>
+
+                        <a class="nav-link" href="catalogo.html">
+                            <svg>
+                                <text>
+                                    Produtos
+                                </text>
+                            </svg>
+                        </a>
+                        <a class="nav-link" href="contacto.html">
+                            <svg>
+                                <text>
+                                    Contacto
+                                </text>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <div class="contenedor">
+            <div class="contenedor-titulo">
+                <div class="titulo">
+                    <h1>Sobre Nosotros</h1>
+                    <p>En ACOLE nos dedicamos a la fabricación de prendas, textiles y personalizadas. Fue fundada en el año 2015 por Andrea Chavarria Cole debido a que en la familia siempre ha existido relacion con la costura y se tiene una gran pasion y
+                        gusto en esta area.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mas-informacion">
+        <div class="container">
+            <h2 data-aos="fade-right">ACOLE, tu tienda de ropa online</h2>
+            <p data-aos="fade-right">ACOLE es tu tienda de ropa online al mejor precio. Ponemos a tu disposición nuestra experiencia y nuestra pasión por el diseño de ropa para hacer realidad tus proyectos de costura gracias a un amplio catálogo de tejidos. En nuestra tienda
+                de ropa online podrás encontrar una amplia gama de diseños unicos para cubrir todas tus necesidades.</p>
+            <br>
+            <p data-aos="fade-right">¿Necesitas un prenda para actualizarte? ¿Para renovar tu fondo de armario? ¿O para confeccionar un nuevo traje de baile? No te preocupes, porque tenemos lo que andas buscando en ACOLE.</p>
+            <br data-aos="fade-right">
+
+            <p data-aos="fade-right">Entre <b>nuestra variada oferta</b> encontrarás diferentes tipos de tejidos según tus necesidades: prendas deportivas, para vestirte en el día a día, para trajes de baile y espectáculos, para ir de viaje a la playa, prendas infantiles y mucho
+                más. Y no sólo puedes comprar ropa, sino que también puedes pasarte por nuestra sección de prendas para mascotas.</p>
+            <section id="section-video" data-aos="zoom-out" data-aos-duration="2000">
+                <div class="contenedor">
+                    <video id="video" width="900px" height="600px" src="assets/video/video.mp4?1212"></video>
+                    <div class="botones">
+                        <button id="boton" onclick="playVideo()"><i class="far fa-play-circle"></i></button>
+                    </div>
+                </div>
+            </section>
+            <p data-aos="fade-right">Todos los tejidos que puedes ver en ACOLE han pasado por un exigente control de calidad en su fabricación. Además, priorizamos a los fabricantes nacionales, fomentando así el comercio nacional y al mismo tiempo contribuimos a ser más respetuosos
+                con el medio ambiente reduciendo las emisiones de CO2 derivadas del transporte a largas distancias.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row " style="background-color: black">
+            <div class="col-md-4">
+                <a class="align-middle " style="height: 100%; color: white; padding: 10px; float: left;" href="desarrollador.html">frarce.dev@gmail.com</a>
+            </div>
+            <div class="col-md-4 offset-md-4">
+                <a class="align-middle " style="height: 100%; color: white; padding: 10px;     float: right;" href="desarrollador.html">© 2022 Copyright: Frarce</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Begin Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+
+    <script>
+        var video = document.getElementById('video');
+        var boton = document.getElementById('boton');
+
+        function playVideo() {
+            video.play();
+            boton.style.display = 'none';
+        }
+
+        video.addEventListener('ended', function() {
+            boton.style.display = 'block';
+        })
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- End Scripts -->
+
+
+</body>
+
+</html>

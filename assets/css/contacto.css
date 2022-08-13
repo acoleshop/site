@@ -1,0 +1,104 @@
+#intro {
+    background: url(../img/contacto.jpg);
+    text-align: center;
+    height: 60vh;
+    margin-top: -60px;
+    background-size: cover;
+    background-position: 57% 48%;
+    padding-top: 10px;
+    background-attachment: fixed;
+}
+
+#intro h1 {
+    font-family: 'Playfair Display';
+    font-size: 72px;
+    color: #fff;
+    font-weight: normal;
+    padding-top: 10px;
+    background-color: #000000b0;
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+#intro p {
+    color: #bfbfbf;
+    font-size: 18px;
+    line-height: 36px;
+    width: 60%;
+    margin: auto;
+    background-color: #000000b0;
+    width: 60%;
+    padding: 20px;
+}
+
+#intro .menu {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 9px;
+    background: transparent;
+}
+
+
+/* OUR STORY */
+
+#ubicacion-section {
+    padding: 10px 0;
+}
+
+#ubicacion-section .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.our-story {
+    color: #bfbfbf;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+hr {
+    width: 40px;
+    float: left;
+    border-color: var(--SubColor);
+}
+
+#ubicacion-section h2,
+#testimonials h2 {
+    margin-top: 50px;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    font-weight: 300;
+}
+
+#ubicacion-section .texto,
+.testimonial .texto {
+    font-size: 17px;
+    color: #939393;
+    line-height: 30px;
+    width: 88%;
+}
+
+#ubicacion-section .izquierda {
+    width: 45%;
+}
+
+#ubicacion-section .derecha img {
+    width: 400px;
+}
+
+
+/* End Sobre Mi */
+
+@media screen and (max-width: 800px) {
+    #intro {
+        height: 38vh;
+    }
+    #intro .contenedor .contenedor-titulo .titulo h1 {
+        width: 100%;
+    }
+    #ubicacion-section .izquierda {
+        width: 90%;
+    }
+}

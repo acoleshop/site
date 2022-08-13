@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Begin Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--End Bootstrap -->
+    <link href="assets/css/mystyles.css" rel="stylesheet">
+    <link href="assets/css/contacto.css" rel="stylesheet">
+</head>
+
+<body>
+    <header style="height: 62px;">
+        <nav id="navbarPrincipal" class="navbar navbar-light bg-light navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a id="logo-container" class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarpages" aria-controls="navbarpages" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarpages" class="collapse navbar-collapse justify-content-center">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html">
+                            <svg>
+                                <text>
+                                    Home
+                                </text>
+                            </svg>
+                        </a>
+
+                        <a class="nav-link " href="nosotros.html">
+                            <svg>
+                                <text>
+                                    Nosotros
+                                </text>
+                            </svg>
+                        </a>
+
+                        <a class="nav-link" href="catalogo.html">
+                            <svg>
+                                <text>
+                                    Produtos
+                                </text>
+                            </svg>
+                        </a>
+                        <a class="nav-link active" href="contacto.html">
+                            <svg>
+                                <text>
+                                    Contacto
+                                </text>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <div class="contenedor">
+            <div class="contenedor-titulo">
+                <div class="titulo">
+                    <h1>Contacto</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicacion-section">
+        <div class="contenedor">
+            <div class="izquierda">
+                <h2>Ubicacion</h2>
+                <hr>
+                <br>
+                <p class="our-story">Alajuela, Canoas, Residencial El Rey</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.2206816536088!2d-84.20543817084729!3d10.026535320174686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd945dc2f186e423d!2zMTDCsDAxJzM1LjUiTiA4NMKwMTInMTcuNiJX!5e0!3m2!1ses-419!2scr!4v1659318664981!5m2!1ses-419!2scr"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section id="contacto">
+        <div class="contenedor">
+            <div class="izquierda">
+                <h2>Horario Atencion</h2>
+                <ul>
+                    <li>LUNES – VIERNES</li>
+                    <li>10:00am – 1:00pm</li>
+                    <li>4:00pm – 10:30pm</li>
+                </ul>
+                <ul>
+                    <li>SABADO</li>
+                    <li>3:00pm – 10:30pm</li>
+                </ul>
+                <ul id="tercero">
+                    <li>DOMINGO</li>
+                    <li>Cerrado</li>
+                </ul>
+            </div>
+            <div class="derecha">
+                <h2>Solicitar Contacto</h2>
+                <p>Registre sus Datos</p>
+                <form action="">
+                    <input id="txtEmail" type="email" placeholder="Correo Electronico">
+                    <input id="txtNombre" type="text" placeholder="Nombre Completo">
+                    <input id="dateFechaNacimiento" type="date" placeholder="Fecha Nacimiento">
+                    <input id="hiddenEdad" type="hidden">
+                    <div class="d-flex pt-3" style="justify-content: center;">
+
+                        <label class="col-md-2">Genero:</label>
+                        <div class="form-check col-md-2">
+                            <input class="form-check-input" type="radio" name="rbGenero" id="rbGeneroMujer">
+                            <label class="form-check-label" for="rbGeneroMujer">
+                                Mujer
+                            </label>
+                        </div>
+                        <div class="form-check col-md-2">
+                            <input class="form-check-input" type="radio" name="rbGenero" id="rbGeneroHombre">
+                            <label class="form-check-label" for="rbGeneroHombre">
+                                Hombre
+                            </label>
+                        </div>
+                    </div>
+                    <div class="d-flex pt-3 pb-3" style="justify-content: center;">
+                        <label class="col-md-3">Grado Academico:</label>
+
+                        <div class="form-check col-md-2">
+                            <input class="form-check-input" type="checkbox" value="" id="chkPrimaria">
+                            <label class="form-check-label" for="chkPrimaria">
+                                Primaria
+                            </label>
+                        </div>
+                        <div class="form-check col-md-2">
+                            <input class="form-check-input" type="checkbox" value="" id="chkSecundaria">
+                            <label class="form-check-label" for="chkSecundaria">
+                                Secundaria
+                            </label>
+                        </div>
+                    </div>
+                    <input type="button" onclick="contactar()" value="Enviar Datos" class="formatoBotonRosado">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row " style="background-color: black">
+            <div class="col-md-4">
+                <a class="align-middle " style="height: 100%; color: white; padding: 10px; float: left;" href="desarrollador.html">frarce.dev@gmail.com</a>
+            </div>
+            <div class="col-md-4 offset-md-4">
+                <a class="align-middle " style="height: 100%; color: white; padding: 10px;     float: right;" href="desarrollador.html">© 2022 Copyright: Frarce</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Begin Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/lib/sweetAlert/sweetalert2.all.min.js"></script>
+    <script src="assets/lib/sweetAlert/sweetalert2.min.js"></script>
+    <script src="assets/lib/sweetAlert/sweetalert2.min.css"></script>
+
+    <script>
+        let contactar = () => {
+            let msj;
+            let email = $('#txtEmail').val();
+            let nombre = $('#txtNombre').val();
+            let fechaNacimiento = $('#dateFechaNacimiento').val();
+            let edad = $('#hiddenEdad').val();
+            let generoMujer = $('#rbGeneroMujer:checked').val();
+            let generoHombre = $('#rbGeneroHombre:checked').val();
+            let gradoAcademicoPrimaria = $('#chkPrimaria').val();
+            let gradoAcademicoSecundaria = $('#chkSecundaria').val();
+
+            if (email == '') {
+                datosIncorrectos('el email');
+            } else if (nombre == '') {
+                datosIncorrectos('el nombre');
+            } else if (fechaNacimiento == '') {
+                datosIncorrectos('la fecha de nacimiento');
+            } else if (generoMujer == undefined && generoHombre == undefined) {
+                datosIncorrectos('el genero');
+            } else {
+                let calculoEdad = calcularEdad(fechaNacimiento);
+                $('#hiddenEdad').attr('value', calculoEdad);
+
+                datosCorrectos(email, nombre);
+            }
+        }
+
+
+
+        let datosCorrectos = (email, nombre) => {
+            sendEmail(email, nombre);
+        }
+
+        let datosIncorrectos = (datoErroneo) => {
+            Swal.fire(
+                'Valide los datos',
+                `Verifique ${datoErroneo}`,
+                'error'
+            )
+        }
+
+        function calcularEdad(fecha) {
+            var hoy = new Date();
+            var cumpleanos = new Date(fecha);
+            var edad = hoy.getFullYear() - cumpleanos.getFullYear();
+            var m = hoy.getMonth() - cumpleanos.getMonth();
+
+            if (m < 0 || (m === 0 && hoy.getDate() < cumpleanos.getDate())) {
+                edad--;
+            }
+
+            return edad;
+        }
+
+        function sendEmail(email, nombre) {
+            Email.send({
+                    Host: "smtp.gmail.com",
+                    Username: "achavarriashop@gmail.com",
+                    Password: "achavarriashop2022",
+                    To: email,
+                    From: "achavarriashop@gmail.com",
+                    Subject: "Solicitud de contacto",
+                    Body: `Buenas ${nombre}, pronte le contactaremos.`
+                })
+                .then(function(message) {
+                    Swal.fire(
+                        'Información Ingresada',
+                        'Pronto sera contactado!',
+                        'success'
+                    )
+                });
+        }
+    </script>
+
+
+    <!-- End Scripts -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+#intro {
+    background: url(../img/catalogo.jpg);
+    text-align: center;
+    height: 60vh;
+    margin-top: -60px;
+    background-size: cover;
+    background-position: 57% 48%;
+    padding-top: 10px;
+}
+
+#intro h1 {
+    font-family: 'Playfair Display';
+    font-size: 72px;
+    color: #fff;
+    font-weight: normal;
+    padding-top: 10px;
+    background-color: #000000b0;
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+#intro p {
+    color: #bfbfbf;
+    font-size: 18px;
+    line-height: 36px;
+    width: 60%;
+    margin: auto;
+    background-color: #000000b0;
+    width: 60%;
+    padding: 20px;
+}
+
+#intro .menu {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 9px;
+    background: transparent;
+}
+
+@media screen and (max-width: 800px) {
+    #intro {
+        height: 38vh;
+    }
+    #intro .contenedor .contenedor-titulo .titulo h1 {
+        width: 100%;
+    }
+}
