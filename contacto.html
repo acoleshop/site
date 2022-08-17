@@ -12,6 +12,7 @@
     <!--End Bootstrap -->
     <link href="assets/css/mystyles.css" rel="stylesheet">
     <link href="assets/css/contacto.css" rel="stylesheet">
+    <link rel="icon" href="assets/img/logo.ico">
 </head>
 
 <body>
@@ -225,10 +226,10 @@
                     Host: "smtp.gmail.com",
                     Username: "achavarriashop@gmail.com",
                     Password: "achavarriashop2022",
-                    To: email,
+                    To: "achavarriashop@gmail.com",
                     From: "achavarriashop@gmail.com",
                     Subject: "Solicitud de contacto",
-                    Body: `Buenas ${nombre}, pronte le contactaremos.`
+                    Body: `Solicitud de contacto a ${nombre}, ${email}.`
                 })
                 .then(function(message) {
                     Swal.fire(

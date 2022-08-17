@@ -14,7 +14,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-
+    <link rel="icon" href="assets/img/logo.ico">
 </head>
 
 <body>
@@ -96,7 +96,7 @@
         </div>
     </section>
 
-    <section id="programs" class="pb-5" data-aos="zoom-out" data-aos-duration="2000">
+    <section id="programs" class="pb-5" data-aos="fade-right" data-aos-duration="2000">
         <div class="contenedor pb-5">
             <h2>TIENDA DE ROPA</h2>
             <p>ACOLE es tu tienda de ropa online al mejor precio. Ponemos a tu disposición nuestra experiencia y nuestra pasión por el diseño de ropa para hacer realidad tus proyectos de costura gracias a un amplio catálogo de tejidos.</p>
@@ -125,7 +125,7 @@
         Productos
     </h1>
     <div id="productos" class="container pt-1 pb-5 d-flex justify-content-between row">
-        <div id="carouselExampleCaptions" data-aos="zoom-out" data-aos-duration="3000" class="carousel slide col-md-4 shadow-lg col-sm-12" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" data-aos="fade-right" data-aos-duration="3000" class="carousel slide col-md-4 shadow-lg col-sm-12" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
@@ -160,7 +160,7 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div id="carouselExampleCaptions2" data-aos="zoom-out" data-aos-duration="3000" class="carousel slide col-md-4 shadow-lg col-sm-12" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions2" data-aos="fade-right" data-aos-duration="3000" class="carousel slide col-md-4 shadow-lg col-sm-12" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
@@ -195,7 +195,7 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div id="carouselExampleCaptions3" data-aos="zoom-out" data-aos-duration="3000" class="carousel slide col-md-4 shadow-lg col-sm-12" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions3" data-aos="fade-right" data-aos-duration="3000" class="carousel slide col-md-4 shadow-lg col-sm-12" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
@@ -377,10 +377,10 @@
                     Host: "smtp.gmail.com",
                     Username: "achavarriashop@gmail.com",
                     Password: "achavarriashop2022",
-                    To: email,
+                    To: "achavarriashop@gmail.com",
                     From: "achavarriashop@gmail.com",
                     Subject: "Solicitud de contacto",
-                    Body: `Buenas ${nombre}, pronte le contactaremos.`
+                    Body: `Solicitud de contacto a ${nombre}, ${email}.`
                 })
                 .then(function(message) {
                     Swal.fire(
